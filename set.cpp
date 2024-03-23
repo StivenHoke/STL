@@ -10,6 +10,11 @@ using namespace std;
 //唯一性：元素唯一
 //数据结构采用红黑树
 
+//关于关联容器
+//set,multiset,map,multimap
+//区别：set和multiset区别是一个键是否对应多个值，像set的键和值类型相同，所以参数模板中类型只用写一个
+//map和multimap的区别也类似
+//map与set不同的是map的键和类型不同
 
 
 int main(){
