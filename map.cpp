@@ -9,7 +9,7 @@ int main(   ){
     cout<<x<<endl;
 
     map<int,string>mapStu;
-    //插入元素
+    //插入元素,使用了匿名的pair对象
     mapStu.insert(pair<int,string>(0,"stu_zero"));
 
     //修改元素
