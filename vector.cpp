@@ -4,6 +4,7 @@
 using namespace std;
 
 //vector是一个序列容器，是数组的一种类表示，提供了自动管理内存功能（动态改变对象长度，随着元素的添加和删除而增大和缩小）
+//序列容器有deque,list,forward_list,queue,priority_queue,stack,vector
 //它提供了对元素的随机访问，在尾部添加和删除元素的时间是固定的，但在头部和中间插入，删除是线性复杂度。
 void show(int &r);
 int main(){
