@@ -6,6 +6,12 @@
 
 using namespace std;
 
+//set 是一个弱排序的关联容器（元素的存储和检索依赖元素之间的关系）
+//唯一性：元素唯一
+//数据结构采用红黑树
+
+
+
 int main(){
     //初始化一个字符串数组
     string str[] = {"word","yellow","at","number","student","at","word","number"};
