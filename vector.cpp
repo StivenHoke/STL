@@ -45,6 +45,11 @@ int main(){
     c=b;
     cout<<c.at(4)<<endl;
 
+    cout<<"insert()函数的检测"<<endl;
+    a.insert(a.begin(),ary,ary+5);
+    for_each(a.begin(),a.end(),show);
+    
+
 
 
     system("pause");
